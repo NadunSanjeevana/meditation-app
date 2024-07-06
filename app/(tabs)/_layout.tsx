@@ -35,6 +35,15 @@ const TabsLayout = () => {
           ),
         }}
       />
+      <Tabs.Screen
+        name="meditate"
+        options={{
+          tabBarLabel: "Meditation",
+          tabBarIcon: ({ color }) => (
+            <MaterialCommunityIcons name="meditation" size={24} color="black" />
+          ),
+        }}
+      />
     </Tabs>
   );
 };
